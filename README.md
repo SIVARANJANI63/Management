@@ -1,46 +1,28 @@
-website : https://projectworlds.in/
+# Django User Management System
 
-# User Management System
+This project is a User Management System built with Django. It provides a web-based interface for managing users, including functionalities for viewing, adding, and editing user profiles.
 
-Roles: 
-1. Admin
-2. Customer
+## Table of Contents
 
-Admin:
-1. Admin can Create, Update, Read and Delete User.
-2. Only Admin can access Create, Update, List and DeleteView.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Customer:
-1. Customer can Register himself.
-2. He can Watch and Update his profile with profile photo(using signals).
-3. He can't access User's Create, Update, List, Delete Page(using custom Mixins).
+## Features
 
+- User authentication (login/logout)
+- User profile management
+- Responsive design using Bootstrap
+- Notifications for alerts and messages
 
-# Versions
-1. Python - 3.10
-2. Django - 4.1.6
-3. Postgresql - 15.0
-4. Template - 'Corona' by Bootstrap Dash.
+## Technologies Used
 
-# Features
-1. Crispy Forms
-2. sqlite
-3. Profile Image
-4. Media File Configuration
-5. Login
-6. Register
-7. Forms
-8. Abstract User
-9. Auto Compression for > 1 MB photo.
-10. Navbar
-11. Sidebar
-12. Footer
-13. Dark Theme
-14. Material Icons
-15. Profile Avatars
-16. Bootstrap
-17. Customer Counter
-18. Alert Messages
-
-
-
+- **Django**: A high-level Python web framework.
+- **HTML/CSS**: For structuring and styling the web pages.
+- **Bootstrap**: For responsive design.
+- **Font Awesome**: For icons.
+- **JavaScript**: For dynamic content and interaction.
